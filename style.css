@@ -91,6 +91,9 @@ ul{
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
 }
+.language-select{
+    display: flex;
+}
 .country-flag{
     /* height:16px;
     width:21px; */
@@ -191,4 +194,136 @@ ul{
 
 .hero-mid-text a{
     color:#007185;
+}
+.main-content{
+    background-color: #E3E6E6;
+}
+.boxes{
+    flex-wrap: wrap;
+    /* justify-content:center ; */
+    /* align-items: center; */
+}
+.box-1{
+    background-color:#ffffff;
+    width:23%;
+    height:420px;
+    margin:10px 10px;
+    border-radius:4px;
+    /* gap:10px; */
+    
+}
+.box-1-content{
+    flex-direction: column;
+    gap:20px;
+    padding:10px;
+}
+.box-1-content img{
+    height:303px;
+    width:98%;
+}
+.box-1-content a{
+    color:black;
+}
+.box-1-content span{
+    /* margin-top: 20px; */
+}
+
+
+.spacer{
+    width:50vw;
+    height:50vh;
+}
+.images-box{
+    gap:10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.grid-img img{
+    height:115px;
+    width:155px;
+}
+.grid-box-text{
+    width:42%;
+    color:#0f1111;
+    font-size: 0.75rem;
+    text-align: left;
+}
+.grid-boxes-1{
+    justify-content:start !important;
+}
+
+.footer-container-1{
+    background-color: #37485A; 
+    color:#DDDDDD;
+    padding:5px 0px;
+    font-size: 0.8125rem;
+    height: 49px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-container-2{
+    background-color: #232f3e;
+    width: 100%;
+    height:70vh;
+    justify-content: center;
+    align-items: flex-start;
+    gap:10px;
+    
+}
+.footer-container-2 ul{
+   margin:150px 70px 0px 70px;
+}
+ul a{
+    display: block;
+    margin-top:10px;
+    font-size: 0.875rem;
+    color:#DDDDDD;
+}
+ul p{
+    font-weight: 700;
+    color:white;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    
+}
+.footer-container-3{
+    background-color: #232f3e;
+    height:68px;
+    width:100%;
+    border-top:0.5px solid white;
+    justify-content: center;
+    align-items: center;
+}
+.footer-container-3 img{
+    margin-top:10px;
+    margin-right: 20px;
+    height:68px;
+    width:100px;
+}
+.language {
+    margin-right: 50px;
+}
+.language select{
+    text-align: center;
+    color:#DDDDDD;
+    border-radius: 3px;
+    padding:10px;
+    background-color: #232f3e;
+}
+
+.footer-bottom{
+    justify-content: center;
+    align-items: center;
+    height:80px;
+    background-color: rgb(18,26,34);
+}
+.fotter-bottom-item {
+    max-width: 35%;
+    justify-content: center;
+    align-items: center;
+    width:90%;
+    flex-wrap: wrap;
+    gap:10px;
 }
